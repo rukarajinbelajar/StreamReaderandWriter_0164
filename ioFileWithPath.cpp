@@ -25,5 +25,7 @@ int main()
         cout << "- ";
         //mendapatkan setiap karakter dalam datu baris
         getline(cin, baris);
+        //kondisi jika baris hanya berisi huruf q
+        
     }
 }
