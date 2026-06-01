@@ -14,4 +14,8 @@ int main()
 
     //membuat fie dalam mode menulis
     ofstream outfile;
+    //menunjukkan ke sebuah nama file dengan ekstentsi txt
+    outfile.open(NamaFile + ".txt", ios::out);
+
+    cout << ">= Menulis file, \'q\' untuk keluar" << endl;
 }
